@@ -1,13 +1,28 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.id {
+    width: 50px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.bg--negro{
+    background-color: rgb(219, 15, 49);
+    color: white
+}
 
-*/
+.oscuro{
+    background-color: #202121;
+}
+body{
+    background-color: #202121;
+}
+.table{
+    margin-bottom: 0px;
+}
+.border-top{
+    border-color: #585858 !important;
+}
+.botones{
+    font-size: 20px;
+    position: sticky;
+    bottom: 0px;
+}
